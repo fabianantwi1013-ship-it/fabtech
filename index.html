@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FABTECH — Software that feels human</title>
+  <meta name="description" content="FABTECH builds websites, apps and custom software for growing businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="logo">
+        <span class="logo__mark">F</span>
+        <span>FABTECH</span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn--small">Let's talk</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <span class="pill">👋 Now booking projects for 2027</span>
+          <h1>Software that feels <em>human</em>.</h1>
+          <p class="lead">
+            We design and build websites, apps and custom tools for growing businesses —
+            friendly to use, solid under the hood, and delivered on time.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn">Start a project</a>
+            <a href="#work" class="btn btn--ghost">See our work →</a>
+          </div>
+          <ul class="hero__trust">
+            <li><strong>Free</strong> first consultation</li>
+            <li><strong>100%</strong> mobile‑friendly</li>
+            <li><strong>Ongoing</strong> support</li>
+          </ul>
+        </div>
+
+        <div class="hero__art reveal" aria-hidden="true">
+          <div class="blob blob--1"></div>
+          <div class="blob blob--2"></div>
+          <div class="window">
+            <div class="window__bar"><i></i><i></i><i></i></div>
+            <div class="window__body">
+              <div class="mock-row"><span class="mock-avatar"></span><span class="mock-line w60"></span></div>
+              <div class="mock-chart">
+                <span style="--h:40%"></span><span style="--h:65%"></span><span style="--h:50%"></span>
+                <span style="--h:80%"></span><span style="--h:70%"></span><span style="--h:95%"></span>
+              </div>
+              <div class="mock-line w80"></div>
+              <div class="mock-line w50"></div>
+            </div>
+          </div>
+          <div class="float-card float-card--a">🚀 <span>Launched!</span></div>
+          <div class="float-card float-card--b">⚡ <span>Fast &amp; secure</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">What we do</span>
+          <h2>Everything you need to grow online</h2>
+          <p>From a first website to a full custom platform, we're with you from idea to launch — and after.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon" style="--c: var(--peach)">🌐</div>
+            <h3>Websites</h3>
+            <p>Fast, beautiful, mobile-friendly sites that turn visitors into customers.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" style="--c: var(--mint)">📱</div>
+            <h3>Mobile apps</h3>
+            <p>iOS and Android apps your customers will actually enjoy using.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" style="--c: var(--sky)">🧩</div>
+            <h3>Custom software</h3>
+            <p>Dashboards, booking systems and internal tools built around how you work.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" style="--c: var(--lilac)">🛒</div>
+            <h3>E‑commerce</h3>
+            <p>Online stores with smooth checkout, inventory and payments set up for you.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" style="--c: var(--sun)">☁️</div>
+            <h3>Cloud & hosting</h3>
+            <p>Secure, reliable hosting and maintenance so you never have to worry.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" style="--c: var(--rose)">🤝</div>
+            <h3>Tech consulting</h3>
+            <p>Not sure what you need? We'll help you plan the right solution and budget.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section section--tint" id="work">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">What we build</span>
+          <h2>Ideas we can bring to life</h2>
+          <p>Examples of the kind of projects FABTECH builds. Yours could be next.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist">
+          <button class="filter is-active" data-filter="all">All</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="app">Apps</button>
+          <button class="filter" data-filter="software">Software</button>
+        </div>
+
+        <div class="grid grid--2 projects">
+          <article class="project reveal" data-cat="web">
+            <div class="project__thumb" style="--g1:#ffb38a; --g2:#ff7a59">
+              <div class="thumb-ui"><span></span><span></span><span></span></div>
+            </div>
+            <div class="project__info">
+              <div class="tags"><span>Web</span><span>E‑commerce</span></div>
+              <h3>Online store for a local shop</h3>
+              <p>A storefront with product pages, secure checkout and order tracking, so a shop can sell around the clock.</p>
+            </div>
+          </article>
+
+          <article class="project reveal" data-cat="app">
+            <div class="project__thumb" style="--g1:#9fe3c5; --g2:#3fb68b">
+              <div class="thumb-phone"></div>
+            </div>
+            <div class="project__info">
+              <div class="tags"><span>App</span><span>Fitness</span></div>
+              <h3>Booking app for a fitness studio</h3>
+              <p>Members book classes, pay and track their progress from their phone, with reminders built in.</p>
+            </div>
+          </article>
+
+          <article class="project reveal" data-cat="software">
+            <div class="project__thumb" style="--g1:#a9cdfc; --g2:#5b8def">
+              <div class="thumb-ui thumb-ui--dash"><span></span><span></span><span></span></div>
+            </div>
+            <div class="project__info">
+              <div class="tags"><span>Software</span><span>Logistics</span></div>
+              <h3>Dispatch dashboard for deliveries</h3>
+              <p>Live driver tracking, route planning and delivery status in one simple screen for the whole team.</p>
+            </div>
+          </article>
+
+          <article class="project reveal" data-cat="web">
+            <div class="project__thumb" style="--g1:#d6c3ff; --g2:#9471e8">
+              <div class="thumb-ui"><span></span><span></span><span></span></div>
+            </div>
+            <div class="project__info">
+              <div class="tags"><span>Web</span><span>Healthcare</span></div>
+              <h3>Website for a clinic</h3>
+              <p>A welcoming, accessible site where patients can learn about services and book appointments online.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">How we work</span>
+          <h2>Simple, clear, no surprises</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">1</span>
+            <h3>Chat</h3>
+            <p>A free call to understand your goals, audience and budget.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">2</span>
+            <h3>Plan & design</h3>
+            <p>We map out features and design screens you can click through.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">3</span>
+            <h3>Build</h3>
+            <p>Weekly updates and demos so you always know where things stand.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">4</span>
+            <h3>Launch & support</h3>
+            <p>We go live together, then keep everything running smoothly.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT + WHY US ============ -->
+    <section class="section section--tint" id="about">
+      <div class="container about">
+        <div class="about__text reveal">
+          <span class="eyebrow">About us</span>
+          <h2>Technology made simple for your business</h2>
+          <p>
+            FABTECH started with a simple idea: technology should make life easier, not
+            more confusing. We work closely with business owners to understand what they
+            need, then build websites, apps and tools that genuinely help them grow.
+          </p>
+          <p>
+            No jargon, no hidden costs — just honest advice and great software.
+          </p>
+        </div>
+
+        <div class="testimonials reveal">
+          <div class="quote">
+            <h3><span class="quote__avatar" style="--c: var(--peach)">💬</span> Clear communication</h3>
+            <p>Plain English, no jargon. You'll always know what we're doing and why.</p>
+          </div>
+          <div class="quote">
+            <h3><span class="quote__avatar" style="--c: var(--mint)">💰</span> Honest pricing</h3>
+            <p>A clear quote up front, with no hidden costs or surprise bills.</p>
+          </div>
+          <div class="quote">
+            <h3><span class="quote__avatar" style="--c: var(--sky)">🛠️</span> Support after launch</h3>
+            <p>We stay with you after go‑live to fix, update and improve as you grow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact reveal">
+          <div class="contact__text">
+            <span class="eyebrow eyebrow--light">Let's build something</span>
+            <h2>Have a project in mind?</h2>
+            <p>Tell us a bit about it and we'll get back to you within one business day.</p>
+            <ul class="contact__list">
+              <li>✉️ <a href="mailto:fabianantwi1013@gmail.com">fabianantwi1013@gmail.com</a></li>
+              <li>📞 <a href="tel:+233547952288">054 795 2288</a></li>
+            </ul>
+          </div>
+
+          <form class="form" id="contactForm">
+            <label>Your name
+              <input type="text" name="name" required placeholder="Jane Doe" />
+            </label>
+            <label>Email
+              <input type="email" name="email" required placeholder="jane@company.com" />
+            </label>
+            <label>What do you need?
+              <select name="service">
+                <option>Website</option>
+                <option>Mobile app</option>
+                <option>Custom software</option>
+                <option>E‑commerce</option>
+                <option>Something else</option>
+              </select>
+            </label>
+            <label>Tell us about your project
+              <textarea name="message" rows="4" required placeholder="A few sentences is perfect…"></textarea>
+            </label>
+            <button type="submit" class="btn btn--full">Send message</button>
+            <p class="form__note" id="formNote" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="logo"><span class="logo__mark">F</span><span>FABTECH</span></a>
+      <p>© <span id="year"></span> FABTECH. Made with care.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="GitHub">gh</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
